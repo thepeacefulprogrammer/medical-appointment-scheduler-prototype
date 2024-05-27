@@ -34,7 +34,8 @@ button:hover {
 	border: 1px solid var(--color-primary);
 }
 
-input {
+input,
+select {
 	border-radius: 5px;
 	padding: 0.25rem 1rem;
 	border: none;

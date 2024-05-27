@@ -33,7 +33,12 @@ const PatientRegistration = () => {
 
 				<div className="form-group">
 					<label htmlFor="doctor">Doctor Responsible:</label>
-					<input type="text" id="doctor" name="doctor" />
+					<select id="doctor" name="doctor">
+						<option value="drSmith">Dr. John Smith</option>
+						<option value="drJones">Dr. Sarah Jones</option>
+						<option value="drWilliams">Dr. Emily Williams</option>
+						<option value="drBrown">Dr. Michael Brown</option>
+					</select>{" "}
 				</div>
 
 				<button type="submit">Register</button>
