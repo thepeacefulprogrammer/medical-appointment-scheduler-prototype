@@ -1,4 +1,5 @@
 import "./PatientRegistration.css";
+import InputMask from "react-input-mask";
 
 const PatientRegistration = () => {
 	return (
@@ -12,7 +13,7 @@ const PatientRegistration = () => {
 
 				<div className="form-group">
 					<label htmlFor="cpf">CPF:</label>
-					<input type="text" id="cpf" name="cpf" />
+					<InputMask mask="999.999.999-99" id="cpf" name="cpf" />
 				</div>
 
 				<div className="form-group">
